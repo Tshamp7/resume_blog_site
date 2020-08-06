@@ -19,4 +19,25 @@
      height: 100%;
  }
 
+#homeimg {
+    background-image: image-url('pexels-vlad-bagacian-1061623.jpg');  
+    background-position: bottom center;
+    background-size: cover;
+    background-position: 0px 1050px;
+}
 
+#navbar {
+    border-bottom: 1px solid black;
+}
+
+.btn-primary-outline {
+    border: 1px solid black;
+}
+
+.btn-primary-outline:hover {
+    background-color: #C8C8C8;
+}
+
+#dropdown {
+    background-color: #F6F6F6;
+}
