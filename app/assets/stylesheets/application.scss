@@ -23,12 +23,18 @@
     background-image: image-url('pexels-vlad-bagacian-1061623.jpg');  
     background-position: bottom center;
     background-size: cover;
-    background-position: 0px 1050px;
+    background-position: 0px 700px;
 }
 
 #navbar {
     border-bottom: 1px solid black;
+    background-color: black;
 }
+
+.navbar a {
+    color: white !important;
+}
+
 
 .btn-primary-outline {
     border: 1px solid black;
@@ -39,5 +45,14 @@
 }
 
 #dropdown {
-    background-color: #F6F6F6;
+    background-color: black;
+}
+
+.dropdown-item:hover {
+    background: grey;
+}
+
+.jumbotron {
+    height: 350px;
+    color: white;
 }
